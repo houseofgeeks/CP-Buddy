@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/emperoryp/Development/Opensource/CP-Buddy/build",
+  "command": "/bin/g++-9    -g   -o CMakeFiles/CP-Buddy.dir/main.cpp.o -c /home/emperoryp/Development/Opensource/CP-Buddy/main.cpp",
+  "file": "/home/emperoryp/Development/Opensource/CP-Buddy/main.cpp"
+}
+]
