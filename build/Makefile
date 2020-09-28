@@ -91,8 +91,8 @@ package_source/fast: package_source
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -520,32 +520,59 @@ ContinuousSubmit/fast:
 	$(MAKE) -f CMakeFiles/ContinuousSubmit.dir/build.make CMakeFiles/ContinuousSubmit.dir/build
 .PHONY : ContinuousSubmit/fast
 
-main.o: main.cpp.o
+src/cpb.o: src/cpb.cpp.o
 
-.PHONY : main.o
+.PHONY : src/cpb.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/CP-Buddy.dir/build.make CMakeFiles/CP-Buddy.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/cpb.cpp.o:
+	$(MAKE) -f CMakeFiles/CP-Buddy.dir/build.make CMakeFiles/CP-Buddy.dir/src/cpb.cpp.o
+.PHONY : src/cpb.cpp.o
 
-main.i: main.cpp.i
+src/cpb.i: src/cpb.cpp.i
 
-.PHONY : main.i
+.PHONY : src/cpb.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/CP-Buddy.dir/build.make CMakeFiles/CP-Buddy.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/cpb.cpp.i:
+	$(MAKE) -f CMakeFiles/CP-Buddy.dir/build.make CMakeFiles/CP-Buddy.dir/src/cpb.cpp.i
+.PHONY : src/cpb.cpp.i
 
-main.s: main.cpp.s
+src/cpb.s: src/cpb.cpp.s
 
-.PHONY : main.s
+.PHONY : src/cpb.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/CP-Buddy.dir/build.make CMakeFiles/CP-Buddy.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/cpb.cpp.s:
+	$(MAKE) -f CMakeFiles/CP-Buddy.dir/build.make CMakeFiles/CP-Buddy.dir/src/cpb.cpp.s
+.PHONY : src/cpb.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/CP-Buddy.dir/build.make CMakeFiles/CP-Buddy.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/CP-Buddy.dir/build.make CMakeFiles/CP-Buddy.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/CP-Buddy.dir/build.make CMakeFiles/CP-Buddy.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -587,9 +614,12 @@ help:
 	@echo "... ContinuousMemCheck"
 	@echo "... ContinuousTest"
 	@echo "... ContinuousSubmit"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/cpb.o"
+	@echo "... src/cpb.i"
+	@echo "... src/cpb.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

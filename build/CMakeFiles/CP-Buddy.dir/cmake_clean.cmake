@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CP-Buddy.dir/main.cpp.o"
+  "CMakeFiles/CP-Buddy.dir/src/cpb.cpp.o"
+  "CMakeFiles/CP-Buddy.dir/src/main.cpp.o"
   "CP-Buddy"
   "CP-Buddy.pdb"
 )

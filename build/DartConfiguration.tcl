@@ -4,7 +4,7 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/emperoryp/Development/Opensource/CP-Buddy
+SourceDirectory: /src
 BuildDirectory: /home/emperoryp/Development/Opensource/CP-Buddy/build
 
 # Where to place the cost data store
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/emperoryp/Development/Opensource/CP-Buddy"
+ConfigureCommand: "/usr/bin/cmake" "/src"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 

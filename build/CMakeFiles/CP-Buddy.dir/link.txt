@@ -1,1 +1,1 @@
-/bin/g++-9  -g  -rdynamic CMakeFiles/CP-Buddy.dir/main.cpp.o  -o CP-Buddy 
+/bin/g++-9   -std=c++17 -g  -rdynamic CMakeFiles/CP-Buddy.dir/src/cpb.cpp.o CMakeFiles/CP-Buddy.dir/src/main.cpp.o  -o CP-Buddy 

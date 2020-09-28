@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/emperoryp/Development/Opensource/CP-Buddy/main.cpp
+/home/emperoryp/Development/Opensource/CP-Buddy/src/cpb.hpp
+
+/home/emperoryp/Development/Opensource/CP-Buddy/src/main.cpp
 iostream
 -
+cpb.hpp
+/home/emperoryp/Development/Opensource/CP-Buddy/src/cpb.hpp
 

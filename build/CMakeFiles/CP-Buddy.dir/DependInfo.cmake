@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/emperoryp/Development/Opensource/CP-Buddy/main.cpp" "/home/emperoryp/Development/Opensource/CP-Buddy/build/CMakeFiles/CP-Buddy.dir/main.cpp.o"
+  "/home/emperoryp/Development/Opensource/CP-Buddy/src/cpb.cpp" "/home/emperoryp/Development/Opensource/CP-Buddy/build/CMakeFiles/CP-Buddy.dir/src/cpb.cpp.o"
+  "/home/emperoryp/Development/Opensource/CP-Buddy/src/main.cpp" "/home/emperoryp/Development/Opensource/CP-Buddy/build/CMakeFiles/CP-Buddy.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
