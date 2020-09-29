@@ -3,6 +3,7 @@ project(CP-Buddy VERSION 0.1.0)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
 set(PROJECT_SOURCE_DIR "/src")
+set(TEST_DIR "/test/gtest/CmakeLists.txt")
 
 include(CTest)
 enable_testing()
