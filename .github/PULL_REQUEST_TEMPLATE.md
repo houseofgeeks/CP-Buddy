@@ -1,6 +1,6 @@
 <!-- Do NOT delete this template. Its great that you decided to contribute 
 to our project. :) Kindly fill the template accordingly! -->
-### Fixes issue # <number>
+fixes # <issue number>
 
 Desription:
 <!-- The title should be short and relevant. -->
