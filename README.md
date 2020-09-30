@@ -37,6 +37,6 @@ the binaries.
 
 ### Want to contribute?
 
-Checkout the [Contributing Guidelines](CONTRIBUTING.md) which you need to follow.
+Checkout the [Contributing Guidelines](.github/CONTRIBUTING.md) which you need to follow.
 
-Also, go though the [Code of Conduct](CODE_OF_CONDUCT.md) for this project.
+Also, go though the [Code of Conduct](.github/CODE_OF_CONDUCT.md) for this project.
