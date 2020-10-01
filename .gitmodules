@@ -1,0 +1,6 @@
+[submodule "vendor/poco"]
+	path = vendor/poco
+	url = https://github.com/pocoproject/poco.git
+[submodule "test/gtest"]
+	path = test/gtest
+	url = https://github.com/google/googletest.git
